@@ -98,7 +98,7 @@ class Body extends Component<BodyProps, BodyStateTypes> {
           Incompleted={this.state.todo.length}
         />
         <div className="px-4">
-          <h1 className="font-bold text-white foBodynt-2xl  mt-2">
+          <h1 className="font-bold text-white foBodynt-2xl text-xl  mt-2">
             Things to get done !
           </h1>
           {this.state.todo.length == 0 && (
@@ -110,7 +110,7 @@ class Body extends Component<BodyProps, BodyStateTypes> {
                 return (
                   <div
                     key={id}
-                    className="text-md items-center  flex font-bold py-2"
+                    className="text-xl items-center  flex font-bold py-2"
                   >
                     <FcLeftDown2 onClick={() => this.handleDoneClick(id)} />
 
@@ -129,8 +129,8 @@ class Body extends Component<BodyProps, BodyStateTypes> {
           {!this.state.show ? (
             <button
               onClick={this.handleAddTodo}
-              className="bg-yellow-500 hover:bg-green-400 font-bold 
-        rounded-full px-2 py-2"
+              className="bg-gradient-to-r from-cyan-300 to-gray-500 font-bold 
+        rounded-full px-2 py-2 hover:scale-105"
             >
               Add a Todo
             </button>
@@ -162,7 +162,7 @@ class Body extends Component<BodyProps, BodyStateTypes> {
               </div>
             </div>
           )}
-          <h1 className="font-bold text-white foBodynt-2xl  mt-2">
+          <h1 className="font-bold text-white foBodynt-2xl text-xl  mt-2">
             Things done !
           </h1>
           {this.state.gotItem.length == 0 && (

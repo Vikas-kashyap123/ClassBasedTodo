@@ -6,7 +6,6 @@ class Navbar extends Component<NavbarProps> {
   render(): React.ReactNode {
     return (
       <div className="font-bold space-y-2 mx-4 border-b-2 border-white">
-        <h1 className="text-indigo-800 text-center  text-2xl">ADVANCE TODO</h1>
         <div className="flex justify-between">
           <h2>Vikas's Todo</h2>
           <div className="">
