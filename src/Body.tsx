@@ -97,7 +97,7 @@ class Body extends Component<BodyProps, BodyStateTypes> {
           Completed={this.state.gotItem.length}
           Incompleted={this.state.todo.length}
         />
-        <div className="px-4">
+        <div className="mx-4 sm:mx-12">
           <h1 className="font-bold text-white foBodynt-2xl text-xl  mt-2">
             Things to get done !
           </h1>

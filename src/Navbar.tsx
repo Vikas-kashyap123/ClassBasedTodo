@@ -5,7 +5,7 @@ type NavbarProps = { Completed: number; Incompleted: number };
 class Navbar extends Component<NavbarProps> {
   render(): React.ReactNode {
     return (
-      <div className="font-bold space-y-2 mx-4 border-b-2 border-white">
+      <div className="font-bold space-y-2 mx-4 sm:mx-12 border-b-2 border-white">
         <div className="flex justify-between">
           <h2>Vikas's Todo</h2>
           <div className="">
