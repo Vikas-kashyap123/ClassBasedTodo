@@ -2,9 +2,10 @@ import Body from "./Body";
 import React, { Component } from "react";
 
 type AppProps = { open: boolean };
+type AppState = {};
 
-class App extends Component<AppProps> {
-  constructor(props: AppProps) {
+class App extends Component<AppState, AppProps> {
+  constructor(props: AppState) {
     super(props);
 
     this.state = {
